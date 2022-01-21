@@ -1,0 +1,141 @@
+/* Color pallete
+
+1: #070300
+2: #b77a37
+3: #d9a069
+4: #ebd5bd
+5: #fafaf8
+
+*/
+
+/* font */
+body, input, select, textarea {
+    /* font-weight: 300;
+    font-size: 1rem;
+    line-height: 2.375; */
+    font-family: 'Abel', sans-serif;
+}
+
+/* Main Description and Image */
+#root {
+    background-color: #070300;
+    background-image: url('/public/images/bg.jpg');
+    background-size: cover;
+}
+
+#wrapper {
+    /* position: absolute; */
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: #fafaf8;
+    opacity: 0.95;
+    color: #070300;
+}
+
+#main {
+    /* position: absolute; */
+    height: 100vh;
+}
+
+.main__header {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.main__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid #070300;
+}
+
+.main__center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: justify; 
+    font-family: 'Amiri', serif;
+    letter-spacing: 0.5px;   
+}
+
+.main__socmed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main__table__center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main__socmed_symbols {
+    padding: 20px;
+}
+
+/* Project Card */
+.posts__header {
+    /* position: relative; */
+    top: 100vh;
+    /* padding: 25px; */
+    margin: auto;
+}
+
+.card__title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+
+.card__subtitle {
+    font-family: 'Amiri', serif;
+    letter-spacing: 0.5px;   
+}
+
+.card__description {
+    font-family: 'Amiri', serif;
+    letter-spacing: 0.30px;
+    font-size: 18px;
+}
+
+.card__name {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+
+.card__group {
+    padding: 0px;
+}
+
+.card__description {
+    text-align: justify;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.card-col {
+    display: flex;
+}
+
+/* Contacts */
+a.contacts__link:link, a.contacts__link:visited {
+    color: #070300;
+    text-decoration: none;
+}
+
+a.contacts__link:hover {
+    color: #b77a37;
+    text-decoration: none;
+}
+
+/* Footer */
+.copyright {
+    text-align: center;
+}
