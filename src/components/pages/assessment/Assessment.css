@@ -1,0 +1,174 @@
+/* Main */
+.header__title {
+    font-size: 25px;
+}
+
+.ethics__wrapper {
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    background-color: #fafaf8;
+    opacity: 0.95;
+    color: #070300;
+}
+
+.ethics__description {
+    font-family: 'Dongle', sans-serif;
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.ethics__font {
+    font-family: 'Dongle', sans-serif;    
+}
+
+.ethics__header {
+    font-family: 'Dongle', sans-serif;    
+    font-size: 50px;
+}
+
+.ethics__whole__page {
+    height: 100vh;
+}
+
+/* Ethics Worksheet */
+
+#ethics__main {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+}
+
+.ethics__title {
+    text-align: center;
+}
+
+.ethics__content {
+    text-align: justify;
+}
+
+.ethics__question {
+    font-weight: bold;
+}
+
+/* Question */
+.question__wrapper {
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    opacity: 0.95;
+    color: #fafaf8;
+}
+
+.question {
+    align-content: center;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    position: relative;
+}
+
+.question__vertical {
+    margin: 0;
+    position: absolute;
+    padding: 10%;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.question__header {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+
+/* Introduction */
+.intro__wrapper {
+    font-family: 'Dongle', sans-serif;
+    background-color: #fafaf8;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    opacity: 0.95;
+    color: #070300;
+}
+
+.intro__question {
+    color: #fafaf8;
+    padding-bottom: 10%;
+}
+
+.introduction {
+    align-content: center;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    /* position: relative; */
+}
+
+.intro__header {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+
+.intro__description {
+    font-family: 'Dongle', sans-serif;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.intro__description__center {
+    font-family: 'Dongle', sans-serif;
+}
+
+.intro__image {
+    width: 40%;
+}
+
+a.intro__reference, .nav__buttons, .ref__link {
+    text-decoration: none;
+}
+
+/* References */
+.ref__wrapper {
+    font-family: 'Dongle', sans-serif;
+    background-color: #fafaf8;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    opacity: 0.95;
+    color: #070300;
+}
+
+.reference {
+    align-content: center;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    /* position: relative; */
+}
+
+.ref__header {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+
+.ref__items {
+    font-family: 'Dongle', sans-serif;
+    text-align: justify;
+}

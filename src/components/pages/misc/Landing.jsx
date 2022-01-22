@@ -4,6 +4,7 @@ import { academic, web, game } from './../../../classes/data/Projects';
 import SocMedCard from './cards/SocMedCard';
 
 export default function landing() {
+    document.title = "Raphael Dalangin's Portfolio";
     return (
         // < !--Wrapper -- >
         <div id="wrapper" className="fade-in">

@@ -13,8 +13,17 @@ function App() {
             <ScrollToTop />
             <div className="App">
                 <Routes>
+                    {/* Assessment */}
+                    <Route exact path="/assessment/question" element={<pages.Question />}> </Route>
+                    <Route exact path="/assessment/introduction" element={<pages.Introduction />}> </Route>
+                    <Route exact path="/assessment/background" element={<pages.Background />}> </Route>
+                    <Route exact path="/assessment/methodology" element={<pages.Methodology />}> </Route>
+                    <Route exact path="/assessment/summary" element={<pages.Summary />}> </Route>
+                    <Route exact path="/assessment/ethics-worksheet" element={<pages.EthicsWorksheet />}> </Route>
+                    <Route exact path="/assessment/poster" element={<pages.Poster />}> </Route>
+                    <Route exact path="/assessment/references" element={<pages.References />}> </Route>
                     <Route exact path="/" element={<pages.Landing />}> </Route>
-                    <Route exact path="*" element={<pages.PageNotFound />}> </Route>
+                    <Route path="*" element={<pages.PageNotFound />}> </Route>
                 </Routes>
                 <partials.Footer />
             </div>

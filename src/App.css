@@ -13,7 +13,7 @@ body, input, select, textarea {
     /* font-weight: 300;
     font-size: 1rem;
     line-height: 2.375; */
-    font-family: 'Abel', sans-serif;
+    font-family: 'Dongle', sans-serif;
 }
 
 /* Main Description and Image */
@@ -40,10 +40,11 @@ body, input, select, textarea {
 
 .main__header {
     margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    padding-top: 5%;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* -ms-transform: translateY(-50%);
+    transform: translateY(-50%); */
 }
 
 .main__img {
@@ -61,8 +62,9 @@ body, input, select, textarea {
     margin-right: auto;
     width: 50%;
     text-align: justify; 
-    font-family: 'Amiri', serif;
+    font-family: 'Dongle', sans-serif;
     letter-spacing: 0.5px;   
+    font-size: 25px;
 }
 
 .main__socmed {
@@ -88,6 +90,16 @@ body, input, select, textarea {
     margin: auto;
 }
 
+a.card__link:link, a.card__link:visited {
+    color: #070300;
+    text-decoration: none;
+}
+
+a.contacts__link:hover {
+    color: #b77a37;
+    text-decoration: none;
+}
+
 .card__title {
     font-family: 'Bebas Neue', cursive;
     font-size: 35px;
@@ -95,14 +107,15 @@ body, input, select, textarea {
 }
 
 .card__subtitle {
-    font-family: 'Amiri', serif;
+    font-family: 'Dongle', sans-serif;
     letter-spacing: 0.5px;   
+    font-size: 20px;
 }
 
 .card__description {
-    font-family: 'Amiri', serif;
+    font-family: 'Dongle', sans-serif;
     letter-spacing: 0.30px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .card__name {
@@ -125,6 +138,11 @@ body, input, select, textarea {
 }
 
 /* Contacts */
+.contacts__link {
+    font-family: 'Dongle', sans-serif;
+    font-size: 30px;
+}
+
 a.contacts__link:link, a.contacts__link:visited {
     color: #070300;
     text-decoration: none;
@@ -138,4 +156,8 @@ a.contacts__link:hover {
 /* Footer */
 .copyright {
     text-align: center;
+    color: darkgrey;
+    padding-bottom: 100px;
+    font-family: 'Dongle', sans-serif;
+    font-size: 25px;
 }

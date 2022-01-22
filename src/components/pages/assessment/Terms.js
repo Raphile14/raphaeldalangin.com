@@ -1,0 +1,1 @@
+export const title = "Antitrust Charges Against Microsoft: A Case Study";

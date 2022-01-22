@@ -14,15 +14,13 @@ export default function ProjectCard(card) {
                                 <Col className='card-col' key={key} xs={12} md={6}>
                                     <Card key={key}>
                                         <div className='text-center pt-5'>
-                                            <Card.Img variant="top" src={val.image} style={{ width: "90%" }} />
+                                            <Card.Img variant="top" src={val.image} style={{ width: "85%" }} />
                                         </div>
                                         <Card.Body>
                                             <div className="text-center mt-3">
-                                                <Card.Title className='card__name' style={{ fontSize: "25px" }}> {val.name} </Card.Title>
-                                            </div>
-                                            <div className='text-center mt-3'>
-                                                <Card.Subtitle className="mb-2 text-muted card__subtitle"> {val.role} </Card.Subtitle>
-                                                <Card.Subtitle className="mb-2 text-muted card__subtitle"> {val.date} </Card.Subtitle>
+                                                <Card.Title className='card__name card__link' style={{ fontSize: "25px" }}> {val.name} </Card.Title>
+                                                <Card.Subtitle as={"p"} className="text-muted card__subtitle"> {val.role} </Card.Subtitle>
+                                                <Card.Subtitle as={"p"} className="mb-2 text-muted card__subtitle"> {val.date} </Card.Subtitle>
                                             </div>
                                             <div className='mt-5 card__description card__description'>
                                                 <Card.Text> {val.description} </Card.Text>
