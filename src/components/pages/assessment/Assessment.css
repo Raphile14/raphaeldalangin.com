@@ -141,6 +141,10 @@
     width: 40%;
 }
 
+.poster {
+    width: 100%;
+}
+
 a.intro__reference, .nav__buttons, .ref__link {
     text-decoration: none;
 }

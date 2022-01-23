@@ -40,7 +40,7 @@ export default function Introduction() {
                     </p>
 
                     <p className='intro__description'>
-                        This case study focuses on and analyzes individuals, organizations, and businesses that have been charged with Antitrust charges
+                        This case study focuses on a business that has been charged with Antitrust charges
                         in the field of information technology. The study also aims to achieve the following:
                     </p>
 

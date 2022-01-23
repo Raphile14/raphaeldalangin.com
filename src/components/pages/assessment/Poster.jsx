@@ -16,6 +16,7 @@ export default function Poster() {
                     <hr />
                     <h2 className='header__title'> Poster </h2>
                     <hr className='mb-5' />
+                    <img src="/images/assessment/poster.jpg" className='poster' alt="poster" />
                     <Container className='mt-5'>
                         <Row>
                             <Col xs={6}> <Link className='nav__buttons' to="/assessment/ethics-worksheet"> Back to Worksheet </Link> </Col>
