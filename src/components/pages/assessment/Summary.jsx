@@ -3,6 +3,8 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import CustomNavbar from './CustomNavbar';
 import { title } from './Terms';
+import { income } from '../../../classes/data/MSNetIncome';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 export default function Evaluation() {
     const referencesLink = "/assessment/references/";
@@ -38,6 +40,39 @@ export default function Evaluation() {
                     the decision. A settlement was decided between the two parties. Microsoft was no longer required to separate into two different
                     entities and, in return, Microsoft shared the advancements they had with their computing interfaces with competitors.
                     <Link className='intro__reference' target={"_blank"} to={`${referencesLink}#7`}> United States v. Microsoft Corp., 253 F.3d 34 (D.C. Cir. 2001)</Link>
+                </p>
+
+                {/* Graph */}
+                <p className='text-center'>
+                    <b> Micrsoft Net Income by Year</b>
+                    <p className='text-center intro__description__center'> in US$ Million </p>
+                </p>                
+                <div style={{ height: "300px" }} className='intro__description__center'>
+                    <ResponsiveContainer width="100%" height="100%">
+                        <LineChart
+                            width={500}
+                            height={300}
+                            data={income}
+                            margin={{
+                                top: 5,
+                                right: 30,
+                                left: 20,
+                                bottom: 5,
+                            }}
+                        >
+                            <CartesianGrid strokeDasharray="3 3" />
+                            <XAxis dataKey="year" />
+                            <YAxis domain={[0, 80000]} />
+                            <Tooltip />
+                            <Legend />
+                            <Line type="monotone" dataKey="income" name="Net Income" stroke="#82ca9d" activeDot={{ r: 8 }} />
+                        </LineChart>
+                    </ResponsiveContainer>
+                </div>
+
+                <p className='intro__description'>
+                    The graph above illustrates the net income of Microsoft Corporation from 1990 to 2021. Data gathered from
+                    <Link className='intro__reference' target={"_blank"} to={`${referencesLink}#12`}> Daze Info (2021)</Link>.
                 </p>
                 <Container className='mt-5'>
                     <Row>

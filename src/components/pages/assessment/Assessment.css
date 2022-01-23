@@ -123,6 +123,10 @@
     letter-spacing: 2px;
 }
 
+.intro__graph {
+    height: 100%;
+}
+
 .intro__description {
     font-family: 'Dongle', sans-serif;
     text-align: justify;

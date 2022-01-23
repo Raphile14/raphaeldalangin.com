@@ -50,6 +50,10 @@ const data = [
     {
         info: "Duignan, B. and West, . Henry R. (2021, March 2). utilitarianism. Encyclopedia Britannica. ",
         link: "https://www.britannica.com/topic/utilitarianism-philosophy"
+    },
+    {
+        info: "Daze Info (2021), Microsoft Net Income by Year: FY 1990-2021, from ",
+        link: "https://dazeinfo.com/2019/11/11/microsoft-net-income-by-year-graphfarm/"
     }
 
 ]
