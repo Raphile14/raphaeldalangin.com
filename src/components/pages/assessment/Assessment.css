@@ -141,6 +141,11 @@ a.intro__reference, .nav__buttons, .ref__link {
     text-decoration: none;
 }
 
+a.nav__buttons__question {
+    text-decoration: none;
+    color: aqua;
+}
+
 /* References */
 .ref__wrapper {
     font-family: 'Dongle', sans-serif;

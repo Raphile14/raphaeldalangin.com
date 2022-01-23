@@ -23,8 +23,8 @@ const data = [
         link: "https://doi.org/10.1177/107769589304800201"
     },
     {
-        info: "Baškarada, S. (2013). Qualitative Case Study Guidelines. Joint and Operations Analysis Division.",
-        link: "" // https://apps.dtic.mil/sti/pdfs/ADA594462.pdf
+        info: "Baškarada, S. (2013). Qualitative Case Study Guidelines. Joint and Operations Analysis Division. from ",
+        link: "https://apps.dtic.mil/sti/pdfs/ADA594462.pdf" 
     },
     {
         info: "Beattie, A. (2022, January 21). Why did microsoft face antitrust charges in 1998? Investopedia. Retrieved January 22, 2022, from ",
@@ -38,6 +38,18 @@ const data = [
     {
         info: "Panettieri, J. (2020, July 27). Big Tech antitrust investigations: Amazon, Apple, facebook and google updates. ChannelE2E. Retrieved January 22, 2022, from ",
         link: "https://www.channele2e.com/business/compliance/big-tech-antitrust-regulatory-breakup-updates/" 
+    },
+    {
+        info: "Richey, T. (2016, October 27). Ethics explainer: The Harm Principle. THE ETHICS CENTRE. Retrieved January 22, 2022, from ",
+        link: "https://ethics.org.au/ethics-explainer-the-harm-principle/"
+    }, 
+    {
+        info: "Shaver, R. (2019, January 15). Egoism. Stanford Encyclopedia of Philosophy. Retrieved January 22, 2022, from ",
+        link: "https://plato.stanford.edu/entries/egoism/"
+    },
+    {
+        info: "Duignan, B. and West, . Henry R. (2021, March 2). utilitarianism. Encyclopedia Britannica. ",
+        link: "https://www.britannica.com/topic/utilitarianism-philosophy"
     }
 
 ]

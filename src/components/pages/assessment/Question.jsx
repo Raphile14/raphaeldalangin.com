@@ -25,7 +25,7 @@ export default function Introduction() {
                         }}
                     />
                     <div className='mt-5'>
-                        <Link className='nav__buttons' to="/assessment/introduction"> Next to Introduction </Link>
+                        <Link className='nav__buttons__question' to="/assessment/introduction"> Next to Introduction </Link>
                     </div>
                 </div>
             </div>

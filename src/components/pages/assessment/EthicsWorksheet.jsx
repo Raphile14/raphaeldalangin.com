@@ -126,7 +126,17 @@ export default function EthicsWorksheet() {
                         <Accordion.Header> <h3> #6 Do any of these ideas conflict? In what order would you honor them? </h3> </Accordion.Header>
                         <Accordion.Body>
                             <p className='ethics__description'>
-                                answer 6
+                                The ideas between Microsoft and the Department of Justice conflict. Microsoft's technological advancement goals paired
+                                with exponential growth is againsts the Department of Justice's goal in maintaining fair market competition within
+                                the society's economic space.
+                            </p>
+
+                            <p className='ethics__description'>
+                                As a student inline with the information technology field, I honor Microsoft's goal first. Anyone should be given the right to
+                                develop and innovate. The Department of Justice's ideas come next. However, the department's understanding and vision in terms
+                                of economics far supersedes my knowledge. Their judgement is key in maintaining balance within our civilization while also
+                                making sure that others could contribute to development and innovation, not just one company. Microsoft's  reach encompases
+                                numerous countries and not just the United States.
                             </p>
                         </Accordion.Body>
                     </Accordion.Item>
@@ -136,7 +146,22 @@ export default function EthicsWorksheet() {
                         <Accordion.Header> <h3> #7 What are your options, and which would be favored by each affected party? (List at least three.) </h3> </Accordion.Header>
                         <Accordion.Body>
                             <p className='ethics__description'>
-                                answer 7
+                                Based on my understanding of the case, the first option would be allowing Microsoft to continue doing what they were doing.
+                                This is heavily in favor of the company's party. However, this action would lead to Microsoft becoming a monopoly.
+                            </p>
+                            <p className='ethics__description'>
+                                The second option is to continue the ruling of dividing the company into two. The first company contains the operating systems
+                                development team, and the second contains the software development team. However, this action will prevent Microsoft from
+                                becoming a monopoly for the time being. This action is in favor of the Department of Justice and Microsoft's competitors.
+                            </p>
+                            <p className='ethics__description'>
+                                The third option is to make Microsoft share its advancements with its competitors. This action would allow other companies to
+                                catch up with Microsoft's progress. However, this action will completely change Microsoft's impact and capabilities in the technological
+                                community.
+                            </p>
+                            <p className='ethics__description'>
+                                Regardless of any options presented above, the advancements Microsoft would be contributing to the world would be entirely different
+                                from the technology we have right now in the year 2022.
                             </p>
                         </Accordion.Body>
                     </Accordion.Item>
@@ -146,7 +171,9 @@ export default function EthicsWorksheet() {
                         <Accordion.Header> <h3> #8 Which options could cause harm to any claimant? </h3> </Accordion.Header>
                         <Accordion.Body>
                             <p className='ethics__description'>
-                                answer 8
+                                Option 1, the option of allowing Microsoft to continue its path would cause harm to the claimant. The claimant's goal
+                                as a government organization in the context of this case is to oversee and make sure that companies do not become monopolies.
+                                Failing to do so would prevent them from performing their tasks and risk the status of the technological economy.
                             </p>
                         </Accordion.Body>
                     </Accordion.Item>
@@ -156,7 +183,12 @@ export default function EthicsWorksheet() {
                         <Accordion.Header> <h3> #9 Would honoring any of the ideals listed above invalidate any of your options? </h3> </Accordion.Header>
                         <Accordion.Body>
                             <p className='ethics__description'>
-                                answer 9
+                                Honoring the ideals of Microsoft would invalidate options 2 and 3 since these are aimed to control the progress of Microsoft.
+                                Honoring the ideals of the Department of Justice would invalidate option 1 since this option's goal is to allow Microsoft
+                                to continue doing what they were doing.
+                            </p>
+                            <p className='ethics__description'>
+                                Honoring the ideals of Microsoft is against the purpose and goals of the Antitrust law.
                             </p>
                         </Accordion.Body>
                     </Accordion.Item>
@@ -166,7 +198,16 @@ export default function EthicsWorksheet() {
                         <Accordion.Header> <h3> #10 Are there any rules, principles, or codes (legal, professional, organizational, or other) that automatically invalidate any of your options? </h3> </Accordion.Header>
                         <Accordion.Body>
                             <p className='ethics__description'>
-                                answer 10
+                                Option 1 would automatically be invalidated due to the characteristics and definition of the Antitrust law given that Microsoft
+                                does perform monopolistic actions.
+                            </p>
+                            <p className='ethics__description'>
+                                Option 2 would technically not automatically be invalidated. However, the integrity and security of the jobs of the people involved
+                                will be affected positively and negatively.
+                            </p>
+                            <p className='ethics__description'>
+                                Option 3 would not be automatically invalidated. However, copyright laws might be triggered if the companies receiving Microsoft's
+                                technological advancements breach laws involving intellectual properties and rights.
                             </p>
                         </Accordion.Body>
                     </Accordion.Item>
@@ -175,38 +216,69 @@ export default function EthicsWorksheet() {
                     <Accordion.Item eventKey='10' >
                         <Accordion.Header> <h3> #11 Which ethical theories support or reject which options? Explain. </h3> </Accordion.Header>
                         <Accordion.Body>
-                            <p className='ethics__description'>
-                                answer 11
-                            </p>
-                            <ul>
-                                Consequential:
-                                <li>
-                                    Mill's "Harm Principle."
-                                    <p className='ethics__answer'> </p>
-                                </li>
-                                <li>
-                                    Ethical egoism.
-                                    <p className='ethics__answer'> </p>
-                                </li>
-                                <li>
-                                    Utilitarianism or risk-benefit analysis.
-                                    <p className='ethics__answer'> </p>
-                                </li>
-                            </ul>
-                            <ul>
-                                Nonconsequential:
-                                <li>
-                                    Ross's duties.
-                                    <p className='ethics__answer'> </p>
-                                </li>
-                                <li>
-                                    Kant's "Categorical Imperative."
-                                </li>
-                            </ul>
-                            <ul>
-                                Other duties (religious, etc.).
-                                <p className='ethics__answer'> </p>
-                            </ul>
+                            <div className='ethics__description'>
+                                <ul>
+                                    <p className='ethics__description text-center'> <b>Consequential</b> </p>
+                                    <li>
+                                        Mill's "Harm Principle."
+                                        <p className='ethics__description'>
+                                            In an article published by <Link className='intro__reference' target={"_blank"} to={`${referencesLink}#9`}>Richey (2016)</Link>,
+                                            the principle states that anyone is free to do whatever they wish as long as they do not bring harm to others.
+                                            In the context of economies and the status of companies, this ethical theory supports options 2 and 3, and against option 1.
+                                            The monopolistic actions of Microsoft if left unchecked would have harmed the status and economy of competitors.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        Ethical egoism.
+                                        <p className='ethics__description'>
+                                            In an article published by <Link className='intro__reference' target={"_blank"} to={`${referencesLink}#10`}>Shaver (2019)</Link>,
+                                            ethical egoism describes the act of a moral agent (or individual) performing actions if and only if, and because, that action
+                                            satisfies their self-interest. In the context of this case, this ethical theory supports option 1 and opposes options 2 and 3.
+                                            This is because option 1 advocates Microsoft to continue what they were doing. This ethical theory supports the notion that they
+                                            are only satisfying their self-interest.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        Utilitarianism or risk-benefit analysis.
+                                        <p className='ethics__description'>
+                                            In an article published by <Link className='intro__reference' target={"_blank"} to={`${referencesLink}#11`}>Duignan and West (2021)</Link>,
+                                            utilitarianism describes actions as correct if it brings happiness and wrong if it leads to unhappiness or pain. In addition, a risk-benefit
+                                            analysis pertains to the analysis of actions to determine and compare which of the following are worth taking or if the risks are too high.
+                                        </p>
+                                        <p className='ethics__description'>
+                                            From the point of view of Microsoft, option 1 heavily supports utilitarianism and opposes options 2 and 3. Meanwhile, from the point of view
+                                            of the Department of Justice, options 2 and 3 are considered as positive actions while option 1 is not.
+                                        </p>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <p className='ethics__description text-center'> <b>Nonconsequential</b> </p>
+                                    <li>
+                                        Ross's duties.
+                                        <p className='ethics__description'>
+                                            Ross's duties or the <b> Prima Facie </b> describes a list of duties that is binding or obligatory to each individual unless it
+                                            conflicts with the morals of others. With this in mind, this ethical theory supports options 2 and 3 since the actions of Microsoft
+                                            should also ethically consider the status of their competitors. This ethical theory opposes option 1.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        Kant's "Categorical Imperative."
+                                        <p className='ethics__description'>
+                                            Categorical Imperative is an ethical theory that was introduced by Immanuel Kant in the 1700s. The ethical theory
+                                            states that each individual must follow commands or moral laws regardless of their self-interests, desires, and circumstances.
+                                            This binds everyone. In the context of this case, this theory supports options 2 and 3 and opposes option 1 with reasons similar
+                                            to other ethical theories above.
+                                        </p>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <p className='ethics__description text-center'> <b>Other duties (religious, etc.).</b> </p>
+                                    <p className='ethics__description'>
+                                        This case is not connected to other duties such as religion.
+                                    </p>
+                                </ul>
+                            </div>
+
                         </Accordion.Body>
                     </Accordion.Item>
 
@@ -215,7 +287,9 @@ export default function EthicsWorksheet() {
                         <Accordion.Header> <h3> #12 Determine a course of action based on your analysis. </h3> </Accordion.Header>
                         <Accordion.Body>
                             <p className='ethics__description'>
-                                answer 12
+                                Based on the analysis of data gathered from the <Link className='intro__reference' target={"_blank"} to={`${referencesLink}#7`}>United States vs Microsoft</Link>, 
+                                the best course of action is option 3, the act of making Microsoft share their advancements with other technical competitors
+                                as long as other laws are not breached such as the Copyright Law.
                             </p>
                         </Accordion.Body>
                     </Accordion.Item>
@@ -225,7 +299,10 @@ export default function EthicsWorksheet() {
                         <Accordion.Header> <h3> #13 Defend your decision in writing to your most adamant detractor. </h3> </Accordion.Header>
                         <Accordion.Body>
                             <p className='ethics__description'>
-                                answer 13
+                                As a student in the field of information technology, option 3 is the best possible course of action to uphold the 
+                                characteristics and goals of the Antitrust law. This method will prevent Microsoft from becoming a monopoly while ensuring
+                                fair market competition. From the perspective of a businessman, this is the worst decision. However, as a technological 
+                                enthusiast, this option will promote innovation and development that would be positive for our species long term.
                             </p>
                         </Accordion.Body>
                     </Accordion.Item>
@@ -238,6 +315,6 @@ export default function EthicsWorksheet() {
                     </Row>
                 </Container>
             </div>
-        </div>
+        </div >
     );
 }
