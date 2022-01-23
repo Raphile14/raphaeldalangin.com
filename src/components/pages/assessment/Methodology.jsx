@@ -19,13 +19,12 @@ export default function Methodology() {
                     <h2 className='header__title'> Methodology </h2>
                     <hr className='mb-5' />
                     <p className='intro__description'>
-                        This case study uses the <b> Qualitative Exploratory Case Study</b> research design. 
-                        This research design aims to find details and data that would be used to gain deeper knowledge
+                        This case study uses the <b> Qualitative Explanatory Case Study</b> research design. 
+                        This research design aims to find and explain details and data that would be used to gain deeper knowledge
                         and understanding. According to the "Quality Case Study Guidelines" written by 
                         <Link className='intro__reference' target={"_blank"} to={`${referencesLink}#5`}> Saša Baškarada (2013)</Link>
-                        , exploratory case studies are usually conducted before the 
-                        start of research questions and hypotheses. This is primarily used to build theories and spark
-                        interest in performing further investigations.
+                        , explanatory case studies are usually conducted to investigate relationships. 
+                        This is primarily used to build theories and spark interest in theory testing.
                     </p>
 
                     <p className='intro__description'>
