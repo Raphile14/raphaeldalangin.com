@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card, CardGroup, Col, Container, Row } from 'react-bootstrap';
+import { Card, CardGroup, Col, Container, Row } from 'react-bootstrap';
 
 export default function ProjectCard(card) {
     let info = card.card;
