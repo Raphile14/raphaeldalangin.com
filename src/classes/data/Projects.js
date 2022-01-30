@@ -1,3 +1,45 @@
+export const music = {
+    name: "Music Projects",
+    data: [
+        {
+            name: "Yes But No - Instrumental",
+            date: "Released: 2021-11-15",
+            image: "images/music/ybn.jpg",
+            description: "",
+            role: "Composer",
+            action: "Listen on YouTube",
+            actionLink: "https://youtu.be/gYiNCUrl_m0"
+        },
+        {
+            name: "Vibrant",
+            date: "Released: 2021-09-15",
+            image: "images/music/vibrant.jpg",
+            description: "",
+            role: "Composer",
+            action: "Listen on YouTube",
+            actionLink: "https://youtu.be/Sw_1tQYte_c"
+        },
+        {
+            name: "Catharsis",
+            date: "Released: 2021-08-15",
+            image: "images/music/catharsis.jpg",
+            description: "",
+            role: "Composer",
+            action: "Listen on YouTube",
+            actionLink: "https://youtu.be/cMmUnMfAqeo"
+        },
+        {
+            name: "Relief",
+            date: "Released: 2020-07-13",
+            image: "images/music/relief.jpg",
+            description: "",
+            role: "Composer",
+            action: "Listen on Spotify",
+            actionLink: "https://open.spotify.com/album/2Lgb6CfcWgYCH49gYkRG3b?si=75MW7jqPRc2IzWylEJtlVg"
+        }
+    ]
+}
+
 export const academic = {
     name: "Academic Projects",
     data: [

@@ -26,7 +26,7 @@ export default function ProjectCard(card) {
                                                 <Card.Text> {val.description} </Card.Text>
                                             </div>
                                             <div className='text-center mt-5 mb-5'>
-                                                <Card.Link target="_blank" href={val.actionLink}> <Button> {val.action} </Button> </Card.Link>
+                                                <Card.Link target="_blank" href={val.actionLink}> <button className='action__button'> {val.action} </button> </Card.Link>
                                             </div>
                                         </Card.Body>
                                     </Card>

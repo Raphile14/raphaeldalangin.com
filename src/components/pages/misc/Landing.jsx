@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectCard from './cards/ProjectCard';
-import { academic, web, game } from './../../../classes/data/Projects';
+import { academic, web, game, music } from './../../../classes/data/Projects';
 import SocMedCard from './cards/SocMedCard';
 
 export default function landing() {
@@ -19,7 +19,7 @@ export default function landing() {
                         Hi, I am <i><b>Raphael Dalangin</b></i>, an aspiring Software, Game, and Web
                         Developer from the Philippines. Currently a 4th Year College Student at Malayan Colleges
                         Mindanao. Taking up Bachelor of Science in Computer Science. I love playing video games,
-                        playing the guitar, and writing and composing music!
+                        playing the guitar, and composing music! Contact me <a href='#contacts'> here </a>
                     </p>
                     <br />
 
@@ -32,16 +32,17 @@ export default function landing() {
                 <ProjectCard card={web} />
                 <ProjectCard card={academic} />
                 <ProjectCard card={game} />
+                <ProjectCard card={music} />
             </div>
 
             {/* <!-- Contacts --> */}
             <div id="contacts" className='text-center mt-5'>
                 <h2 className='mb-4 card__title'> Contact Details </h2>
                 <h5>
-                    <a className='contacts__link' href="mailto: raphaeldalangin@codingcatharsis.com" target="_blank" rel="noreferrer">raphaeldalangin@codingcatharsis.com</a>
+                    <a className='contacts__link' href="mailto: raphaeldalangin@codingcatharsis.com" target="_blank" rel="noreferrer">email: raphaeldalangin@codingcatharsis.com</a>
                 </h5>
                 <h5>
-                    <a className='contacts__link' href="/assets/files/v2 Raphael Dalangin - Resume.pdf" target="_blank" rel="noreferrer"> resume </a>
+                    <a className='contacts__link' href="/assets/files/v2 Raphael Dalangin - Resume.pdf" target="_blank" rel="noreferrer"> file: resume </a>
                 </h5>
 
                 <SocMedCard />

@@ -11,7 +11,7 @@ export default function SocMedCard() {
                             return (
                                 <td key={key} className='main__socmed_symbols'>
                                     <a href={card.link} target="_blank" rel="noreferrer">
-                                        <img align="center" alt={card.alt} width="40px" src={card.src} />
+                                        <img className='soc__image' align="center" alt={card.alt} src={card.src} />
                                     </a>
                                 </td>
                             )

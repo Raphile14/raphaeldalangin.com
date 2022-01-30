@@ -56,6 +56,10 @@ body, input, select, textarea {
     border: 1px solid #070300;
 }
 
+img.soc__image {
+    width: 40px;
+}
+
 .main__center {
     display: block;
     margin-left: auto;
@@ -88,6 +92,17 @@ body, input, select, textarea {
     top: 100vh;
     /* padding: 25px; */
     margin: auto;
+}
+
+.action__button {
+    /* color: red; */
+    background-color: transparent;
+    border: 2px solid #070300;
+    font-family: 'Bebas Neue', cursive;    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 a.card__link:link, a.card__link:visited {
@@ -173,4 +188,34 @@ a.contacts__link:hover {
     padding-bottom: 100px;
     font-family: 'Dongle', sans-serif;
     font-size: 25px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+    .main__center {
+        font-size: 14px;
+        width: 75%;
+    }
+
+    .contacts__link {
+        font-size: 20px;
+    }
+
+    .main__img {
+        width: 200px;
+    }
+
+    .main__header {
+        padding-top: 10%;
+    }
+
+    .wrapper {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
+
+    img.soc__image {
+        width: 20px;
+    }
 }
