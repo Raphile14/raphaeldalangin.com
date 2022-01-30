@@ -61,9 +61,9 @@ body, input, select, textarea {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    text-align: justify; 
+    text-align: justify;
     font-family: 'Dongle', sans-serif;
-    letter-spacing: 0.5px;   
+    letter-spacing: 0.5px;
     font-size: 25px;
 }
 
@@ -108,7 +108,7 @@ a.contacts__link:hover {
 
 .card__subtitle {
     font-family: 'Dongle', sans-serif;
-    letter-spacing: 0.5px;   
+    letter-spacing: 0.5px;
     font-size: 20px;
 }
 
@@ -151,6 +151,19 @@ a.contacts__link:link, a.contacts__link:visited {
 a.contacts__link:hover {
     color: #b77a37;
     text-decoration: none;
+}
+
+/* Page not found */
+.nf__center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    font-family: 'Dongle', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 25px;
+    padding-top: 20%;
 }
 
 /* Footer */
